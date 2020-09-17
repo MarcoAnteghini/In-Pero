@@ -10,5 +10,14 @@ You can also dowload the directory 1900_weights and the files ulits.py, unirep.p
 
 Finally the pre-computed model 'LR_model2.sav' is also required.
 
+You can also check the List_of_used_packeges for building your on conda environment.
 
 
+
+Usage of In-Pero.py
+
+./In-Pero.py file.fasta
+
+
+Output:
+Log file containing the entries subdivided in matrix and membrane proteins.
