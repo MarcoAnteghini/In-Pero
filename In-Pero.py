@@ -6,9 +6,6 @@ import os
 import numpy as np
 from Bio import SeqIO
 import sys
-if not sys.warnoptions:
-    import warnings
-    warnings.simplefilter("ignore")
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3' 
 import tensorflow as tf
@@ -27,6 +24,7 @@ fastafile=sys.argv[1]
 from unirep import babbler1900 as babbler
 
 # Where model weights are stored.
+# Here we consider the directory where the script is executed. Insert the proper path below if needed.
 MODEL_WEIGHT_PATH = "."
 b = babbler('1900_weights')
 
@@ -52,7 +50,7 @@ with open(fastafile, "r") as handle:
                 tosave1 = np.asarray(ur[0])
         #        tosave2 = np.asarray(ur[1])
         #        tosave3 = np.asarray(ur[2])
-
+# We here save just one of the 3 arrays that Unirep produces.
                 np.save(keys+'_UniRep1', tosave1)
         #        np.save(ids.split('|')[1]+'_UniRep2', tosave2)
         #        np.save(ids.split('|')[1]+'_UniRep3', tosave3)
