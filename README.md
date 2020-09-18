@@ -32,7 +32,7 @@ Then download the weights with
 
 You can also check the List_of_used_packeges for building your own conda environment.
 
-It will sure work with:
+Suggested packages:
 
 - `numpy 1.17.2`
 - `biopython 1.77`
@@ -61,3 +61,12 @@ Outputs:
 - The UniRep encoding
 - The seqvec encoding
 
+### This repository contains:
+
+
+- LR_model2.sav : The LR pre-computed model 
+
+- useful scripts retrived from the UniRep Github repository (see above):
+  - data_utils.py
+  - unirep.py
+  - utils.py
