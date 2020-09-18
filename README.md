@@ -66,6 +66,8 @@ Outputs:
 
 - In-Pero_models : directory containing all the pre-computed models
 - LR_model2.sav : The LR pre-computed model 
+- PP_matrix.fasta : fasta file containg the matrix proteins used for building the dataset 
+- PP_membrane.fasta : fasta file contain the membrane proteins used for building the dataset
 
 - useful scripts retrived from the UniRep Github repository (see above):
   - data_utils.py
