@@ -2,7 +2,7 @@
 
 To use the In-Pero.py script, you first need to download and install:
 
-1) seqvec 
+#### 1) seqvec 
 Instructions are available here: https://github.com/Rostlab/SeqVec.
 
 Another possipility is also simply use: 
@@ -11,7 +11,7 @@ Another possipility is also simply use:
 
 https://pypi.org/project/seqvec/
 
-2) UniRep and the related weight files, in this case we used the 1900_weights.
+#### 2) UniRep and the related weight files, in this case we used the 1900_weights.
 
 https://github.com/churchlab/UniRep
 
@@ -26,7 +26,7 @@ Then download the weights with
 `aws s3 sync --no-sign-request --quiet s3://unirep-public/1900_weights/ 1900_weights`
 
 
-3) The pre-computed model 'LR_model2.sav' is also required.
+#### 3) The pre-computed model 'LR_model2.sav' is also required.
 
 You can also check the List_of_used_packeges for building your own conda environment.
 
@@ -44,10 +44,18 @@ It will sure work with:
 
 
 
-Usage of In-Pero.py
+#### Usage of In-Pero.py
 
-./In-Pero.py file.fasta
+first make sure the script is executable: `chmod +x In-Pero.py`
+
+Usage:
+
+`./In-Pero.py file.fasta`
 
 
-Output:
-Log file containing the entries subdivided in matrix and membrane proteins.
+Outputs:
+
+- Log file ('filename_output.txt') containing the entries subdivided in matrix and membrane proteins.
+- The UniRep encoding
+- The seqvec encoding
+
