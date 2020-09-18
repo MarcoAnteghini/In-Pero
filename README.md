@@ -5,7 +5,7 @@ To use the In-Pero.py script, you first need to download and install:
 #### 1) seqvec 
 Instructions are available here: https://github.com/Rostlab/SeqVec.
 
-Another possipility is also simply use: 
+or 
 
 `pip install seqvec`
 
@@ -15,7 +15,7 @@ https://pypi.org/project/seqvec/
 
 https://github.com/churchlab/UniRep
 
-Make sure you download the 1900_weights directory and place it toghether with the other files in this repository.
+Make sure you download the 1900_weights directory and place it together with the other files in this repository.
 
 For example you can first install awscli: 
 
@@ -30,7 +30,7 @@ Then download the weights with
 
 #### 4) Additional requirements
 
-You can also check the List_of_used_packeges for building your own conda environment.
+You can also check the List_of_used_packages for building your own conda environment.
 
 Suggested packages:
 
