@@ -51,12 +51,12 @@ Suggested packages:
 
 Usage:
 
-`./In-Pero.py file.fasta`
+`./In-Pero.py <filename>.fasta`
 
 
 Outputs:
 
-- Log file ('file_output.txt') containing the entries subdivided in matrix and membrane proteins.
+- Log file ('<filename>_output.txt') containing the entries subdivided in matrix and membrane proteins.
 - The UniRep encoding
 - The seqvec encoding
 
