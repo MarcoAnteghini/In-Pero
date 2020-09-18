@@ -30,8 +30,6 @@ Then download the weights with
 
 #### 4) Additional requirements
 
-You can also check the List_of_used_packages for building your own conda environment.
-
 Suggested packages:
 
 - `numpy 1.17.2`
