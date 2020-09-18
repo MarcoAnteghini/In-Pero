@@ -67,7 +67,7 @@ from subprocess import Popen, PIPE
 print('\n'*2)
 print('SeqVec encoding:','\n')
 
-p1 = Popen(["seqvec", "-i", fastafile, "-o", fastafile[:-6]+str('_seqvec.npz'),"--protein","True"], stdout=PIPE)
+p1 = Popen(["seqvec", "-i", fastafile, "-o", fastafile[:-6]+str('_seqvec.npz'),"--protein"], stdout=PIPE)
 
 p1.communicate()
 
