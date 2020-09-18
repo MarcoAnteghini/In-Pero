@@ -56,7 +56,7 @@ Usage:
 
 Outputs:
 
-- Log file ('filename_output.txt') containing the entries subdivided in matrix and membrane proteins.
+- Log file ('file_output.txt') containing the entries subdivided in matrix and membrane proteins.
 - The UniRep encoding
 - The seqvec encoding
 
