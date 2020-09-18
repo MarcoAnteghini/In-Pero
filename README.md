@@ -6,7 +6,7 @@ To use the In-Pero.py script, you first need to download and install:
 Instructions are available here: https://github.com/Rostlab/SeqVec.
 
 Another possipility is also simply use: 
-<pip install seqvec>
+`pip install seqvec`
 https://pypi.org/project/seqvec/
 
 2) UniRep and the related weight files, in this case we used the 1900_weights.
