@@ -71,7 +71,7 @@ Outputs:
   - unirep.py
   - utils.py
 
-UniRep licencse:
+UniRep license:
 
 Copyright 2018, 2019 Ethan Alley, Grigory Khimulya, Surojit Biswas
 
