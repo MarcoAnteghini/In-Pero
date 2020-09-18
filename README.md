@@ -70,11 +70,5 @@ Outputs:
   - data_utils.py
   - unirep.py
   - utils.py
-
-UniRep license:
-
-Copyright 2018, 2019 Ethan Alley, Grigory Khimulya, Surojit Biswas
-
-All the model weights are licensed under the terms of Creative Commons Attribution-NonCommercial 4.0 International License. To view a copy of this license, visit http://creativecommons.org/licenses/by-nc/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
-
-Otherwise the code in this repository is licensed under the terms of GPL v3 as specified by the gpl.txt file.
+  
+The code in this repository is licensed under the terms of GPL v3 as specified by the LICENSE file.
