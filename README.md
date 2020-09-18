@@ -28,6 +28,8 @@ Then download the weights with
 
 #### 3) The pre-computed model 'LR_model2.sav' is also required.
 
+#### 4) Additional requirements
+
 You can also check the List_of_used_packeges for building your own conda environment.
 
 It will sure work with:
@@ -44,7 +46,7 @@ It will sure work with:
 
 
 
-#### Usage of In-Pero.py
+#### Usage of `In-Pero.py`
 
 first make sure the script is executable: `chmod +x In-Pero.py`
 
