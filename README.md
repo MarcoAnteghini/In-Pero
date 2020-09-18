@@ -20,12 +20,13 @@ Make sure you download the 1900_weights directory and place it toghether with th
 
 You can also check the List_of_used_packeges for building your own conda environment.
 
-Important are: 
+Important are:
+
 Numpy
 Biopython
 Tensorflow 1
 Pandas
-Scikit
+Scikit 0.22
 
 
 
