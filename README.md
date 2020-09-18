@@ -11,7 +11,7 @@ Another possipility is also simply use: pip install seqvec (https://pypi.org/pro
 
 https://github.com/churchlab/UniRep
 
-Make sure you download the 1900_weights directory and place it with the other files in this repository.
+Make sure you download the 1900_weights directory and place it toghether with the other files in this repository.
 
 
 3) The pre-computed model 'LR_model2.sav' is also required.
