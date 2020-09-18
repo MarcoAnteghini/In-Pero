@@ -48,7 +48,6 @@ Suggested packages:
 
 #### Usage of `In-Pero.py`
 
-first make sure the script is executable: `chmod +x In-Pero.py`
 
 Usage:
 
