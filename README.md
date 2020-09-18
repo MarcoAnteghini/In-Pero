@@ -64,6 +64,7 @@ Outputs:
 ### This repository contains:
 
 
+- In-Pero_models : directory containing all the pre-computed models
 - LR_model2.sav : The LR pre-computed model 
 
 - useful scripts retrived from the UniRep Github repository (see above):
