@@ -17,6 +17,10 @@ Make sure you download the 1900_weights directory and place it toghether with th
 3) The pre-computed model 'LR_model2.sav' is also required.
 
 You can also check the List_of_used_packeges for building your on conda environment.
+Important are: 
+Numpy
+Biopython
+
 
 
 
