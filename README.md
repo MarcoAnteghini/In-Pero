@@ -25,6 +25,7 @@ Numpy
 Biopython
 Tensorflow 1
 Pandas
+Scikit
 
 
 
