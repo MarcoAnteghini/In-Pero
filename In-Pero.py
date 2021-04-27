@@ -71,7 +71,10 @@ p1 = Popen(["seqvec", "-i", fastafile, "-o", fastafile[:-6]+str('_seqvec.npz'),"
 
 p1.communicate()
 
+#comment/uncomment the model you want to use
 filename='LR_model2.sav'
+#filename='SVM_model.sav'
+
 
 LR_model = pickle.load(open(filename, 'rb'))
 
