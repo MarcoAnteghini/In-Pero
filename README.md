@@ -26,7 +26,7 @@ Then download the weights with
 `aws s3 sync --no-sign-request --quiet s3://unirep-public/1900_weights/ 1900_weights`
 
 
-#### 3) The pre-computed model 'LR_model2.sav' is also required.
+#### 3) A pre-computed model 'LR_model2.sav'/'SVM_model.sav' is also required (uncomment the selected model in the In-Pero.py script). 
 
 #### 4) Additional requirements
 
