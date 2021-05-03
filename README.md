@@ -1,4 +1,4 @@
-# In-Pero: Prediction of sub-peroxisomal localisation using deep learning embeddings and logistic regression.
+# In-Pero: Prediction of sub-peroxisomal localisation using deep learning embeddings and support vector machines.
 
 To use the In-Pero.py script, you first need to download and install:
 
