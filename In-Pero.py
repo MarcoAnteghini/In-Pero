@@ -15,6 +15,10 @@ def is_fasta(filename):
         fasta = SeqIO.parse(handle, "fasta")
         return any(fasta)
 
+
+# create DATA folder
+os.makedirs("DATA/", exist_ok=True)
+
 tf.set_random_seed(42)
 np.random.seed(42)
 
@@ -51,7 +55,7 @@ with open(fastafile, "r") as handle:
         #        tosave2 = np.asarray(ur[1])
         #        tosave3 = np.asarray(ur[2])
 # We here save just one of the 3 arrays that Unirep produces.
-                np.save(keys+'_UniRep1', tosave1)
+                np.save("DATA/" + keys+'_UniRep1', tosave1)
         #        np.save(ids.split('|')[1]+'_UniRep2', tosave2)
         #        np.save(ids.split('|')[1]+'_UniRep3', tosave3)
                 c=c+1
@@ -79,9 +83,9 @@ filename='LR_model2.sav'
 LR_model = pickle.load(open(filename, 'rb'))
 
 unireps = {}
-for filenames in os.listdir('.'):
+for filenames in os.listdir('DATA'):
     if filenames.endswith('UniRep1.npy'):
-        unireps[filenames.split('_')[0]] = np.load(filenames)
+        unireps[filenames.split('_')[0]] = np.load("DATA/" + filenames)
 
 seqvecs = {}
 seqvec_archive = np.load(fastafile[:-6]+str('_seqvec.npz'), allow_pickle=True)
