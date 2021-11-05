@@ -39,6 +39,7 @@ Suggested packages:
 - `scikit-learn 0.22`
 - `seqvec 0.4.1`
 - `scipy 1.4.1`
+- `overrides 3.1.0`
 
 
 
